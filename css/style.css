@@ -1,8 +1,14 @@
-#root {
+body {
   margin: 0;
-  padding: 0 5em;
-  height: 100vh;
+}
+
+#root {
+  margin: 1rem;
+  padding: 0;
+  height: 95vh;
   position: relative;
+  background-color: #eee;
+  border: 2px dotted #aaa;
 }
 
 .circle {
@@ -11,14 +17,18 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  transition: all 0.2s ease-out;
 }
 
 .timer {
   position: absolute;
   bottom: 0;
   font-size: 30px;
-  color: blue;
+  background-color: black;
+  color: white;
   left: 45%;
-  width: 20%;
   margin-bottom: 2em;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.5rem;
 }

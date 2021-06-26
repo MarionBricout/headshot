@@ -42,8 +42,8 @@ const onClick = (e) => {
     const valueWidth = u.offsetWidth;
     const valueHeight = u.offsetHeight;
     // Create number for style position
-    u.style.left = `${getRandomNumber(0, 1000)}px`;
-    u.style.top = `${getRandomNumber(0, 500)}px`;
+    u.style.left = `${getRandomNumber(0, 1500)}px`;
+    u.style.top = `${getRandomNumber(0, 400)}px`;
     // Change value in css
     u.style.width = `${valueWidth - 20}px`;
     u.style.height = `${valueHeight - 20}px`;
