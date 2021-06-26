@@ -1,0 +1,24 @@
+#root {
+  margin: 0;
+  padding: 0 5em;
+  height: 100vh;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.timer {
+  position: absolute;
+  bottom: 0;
+  font-size: 30px;
+  color: blue;
+  left: 45%;
+  width: 20%;
+  margin-bottom: 2em;
+}
